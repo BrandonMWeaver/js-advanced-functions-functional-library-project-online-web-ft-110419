@@ -5,9 +5,7 @@ const fi = (function() {
     },
     
     each: function(collection, callback) {
-      if collection == typeof(Object)
         for (const key in collection) {
-          callback(key, collection[key], collection)
         }
     },
     
