@@ -5,7 +5,7 @@ const fi = (function() {
     },
     
     each: function(collection, callback) {
-      const newCollection;
+      const newCollection = collection;
       for (let i = 0; i < newCollection.length; i++) {
         callback(newCollection[i]);
       }
