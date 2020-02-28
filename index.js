@@ -5,10 +5,11 @@ const fi = (function() {
     },
     
     each: function(collection, callback) {
-        for (let i = 0; i < collection.length; i++) {
-          callback(collection[i]);
-        }
-        return collection;
+      const newCollection;
+      for (let i = 0; i < newCollection.length; i++) {
+        callback(newCollection[i]);
+      }
+      return collection;
     },
     
     map: function() {
